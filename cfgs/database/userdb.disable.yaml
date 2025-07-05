@@ -1,0 +1,5 @@
+database: userdb
+alias: userdb
+type: mongodb
+# 注意一定要配置primary成员ip:port和这个地址一致
+dsn: "mongodb://mongo:ChangeMe_987@192.168.1.106:37017/userdb?replicaSet=rs0&authSource=admin"

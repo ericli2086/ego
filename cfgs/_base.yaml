@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+# GORM日志配置
+gorm_log:
+  # 日志文件配置 (lumberjack)
+  filename: "logs/gorm.log"      # 日志文件路径
+  max_size: 100                  # 单个文件最大大小(MB)
+  max_backups: 5                 # 保留的备份文件数量
+  max_age: 30                    # 保留天数
+  compress: true                 # 是否压缩旧文件
+  
+  # GORM日志级别配置
+  slow_threshold: "200ms"           # 慢查询阈值 (如: "1s", "500ms", "2s")
+  log_level: "info"              # 日志级别: silent, error, warn, info
+  ignore_record_not_found_error: true  # 是否忽略记录未找到错误
+  colorful: true                # 是否启用彩色输出(文件输出建议false)

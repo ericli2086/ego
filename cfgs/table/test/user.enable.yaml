@@ -1,0 +1,14 @@
+name: user
+alias: user
+primary_key: id
+unique_keys:
+  - - phone
+    - deleted_time
+  - - email
+    - deleted_time
+  - - phone
+  - - email
+softdel_key: deleted_time
+softdel_type: timestamp
+auto_update:
+  updated_time: '{{now}}'

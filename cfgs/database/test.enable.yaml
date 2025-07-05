@@ -1,0 +1,9 @@
+database: test
+alias: test
+type: sqlite
+dsn: "./test.db"
+pool:
+  max_open_conns: 20
+  max_idle_conns: 10
+  max_life_time: 3600s
+  max_idle_time: 300s

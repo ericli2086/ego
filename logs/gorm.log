@@ -1,0 +1,24 @@
+
+2025/07/05 10:34:03 /mnt/d/workspace/linux/ego/apix/restful.go:1391
+[165.707ms] [rows:1] SELECT count(*) FROM `user` WHERE deleted_time IS NULL OR deleted_time = "0000-00-00 00:00:00"
+
+2025/07/05 10:34:46 /mnt/d/workspace/linux/ego/apix/restful.go:1391
+[99.758ms] [rows:1] SELECT count(*) FROM `user` WHERE deleted_time IS NULL OR deleted_time = "0000-00-00 00:00:00"
+
+2025/07/05 10:35:16 /mnt/d/workspace/linux/ego/apix/restful.go:1391
+[102.768ms] [rows:1] SELECT count(*) FROM `user` WHERE deleted_time IS NULL OR deleted_time = "0000-00-00 00:00:00"
+
+2025/07/05 10:35:46 /mnt/d/workspace/linux/ego/apix/restful.go:1391
+[97.176ms] [rows:1] SELECT count(*) FROM `user` WHERE deleted_time IS NULL OR deleted_time = "0000-00-00 00:00:00"
+
+2025/07/05 10:36:16 /mnt/d/workspace/linux/ego/apix/restful.go:1391
+[102.800ms] [rows:1] SELECT count(*) FROM `user` WHERE deleted_time IS NULL OR deleted_time = "0000-00-00 00:00:00"
+
+2025/07/05 10:36:50 /mnt/d/workspace/linux/ego/apix/restful.go:1391
+[107.411ms] [rows:1] SELECT count(*) FROM `user` WHERE deleted_time IS NULL OR deleted_time = "0000-00-00 00:00:00"
+
+2025/07/05 10:37:20 /mnt/d/workspace/linux/ego/apix/restful.go:1391
+[115.090ms] [rows:1] SELECT count(*) FROM `user` WHERE deleted_time IS NULL OR deleted_time = "0000-00-00 00:00:00"
+
+2025/07/05 10:37:50 /mnt/d/workspace/linux/ego/apix/restful.go:1391
+[141.674ms] [rows:1] SELECT count(*) FROM `user` WHERE deleted_time IS NULL OR deleted_time = "0000-00-00 00:00:00"
